@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    
+</head>
+<body>
+    <div id = "header">
+            <div>
+                <a href="navbar.html" ><img src="https://m.media-amazon.com/images/G/01/zappos/melody/black-logo.svg" /></a>
+                <a href="vrsnl.html" ><img src="https://m.media-amazon.com/images/G/01/vrsnl/vrsnl-logo._CB1564076501_.svg" /></a>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <input placeholder="Customer Service"  readonly >
+                    <div class="option">
+                        <div>Contact Info</div>
+                        <div>FAQ</div>
+                        <div>Give Us Feedback</div>
+                    </div>
+                </div>
+            <a href="shipping&return.html" ><h3>Every Zappos order comes with FAST, FREE Shipping, plus a FREE 365-Day Return Policy! More About Shipping & Returns</h3></a>
+            </div>
+            <div>
+                <a href="navbar.html" ><img src="https://m.media-amazon.com/images/G/01/zappos/melody/zapposPBS._CB1509642213_.svg"/></a>
+                <form>
+                    <div>
+                    <input type="text" placeholder="Search for shoes, clothes, etc." name="search" id="text1">
+                    </div>
+                    <button type="submit">SEARCH</button>
+                </form>
+           
+                <button><ion-icon name="cart-outline"></ion-icon>MY CART</button>
+            </div>
+            <div>
+                <div id="blocks">
+                    <input type="text" placeholder="New" readonly>
+                    <input type="text" placeholder="Women" readonly>
+                    <input type="text" placeholder="Men" readonly>
+                    <input type="text" placeholder="Kids" readonly>
+                    <input type="text" placeholder="Departments" readonly>
+                    <input type="text" placeholder="Brands" readonly>
+                    <input type="text" placeholder="Sale" readonly>
+                    <input type="text" placeholder="Clothing" readonly>
+                </div>
+                <div>Sign In / Register</div>
+            </div>
+            <div>
+                <p></p>
+            </div>
+            
+            <div id="bimage">
+              
+                    <img src="https://m.media-amazon.com/images/G/01/2022/homepage9.26/COOP-FALL-CAMPAGIN-WOMENS-STEVE-MADDEN-HERO-1440x700.jpg" />
+                    <div>
+                        <h2>They’re Here: Fall Fashion Trends</h2>
+                        <p>That fall feeling is coming in hot with chunky knits, sleek trousers, and other key pieces for the season!</p>
+                        <button>SHOP WOMEN'S FALL FASHION TRENDS</button>
+                    </div>
+                </div>
+            
+    </div>
+    <div id="midtop">
+        <h2>Shop Popular Categories</h2>
+        <div>
+            <div>
+                <div>
+                <img src="https://m.media-amazon.com/images/I/81crO3+x7YL._AC_SX255_.jpg" />
+            </div>
+                <p>Sneakers & Athlectic Shoes</p>
+            </div>
+            <div>
+                <div>
+                <img src="https://m.media-amazon.com/images/I/71AQ9q89+gL._AC_SX255_.jpg"/>
+            </div>
+                <p>Ankle Booties</p>
+            </div>
+            <div>
+                <div>
+                <img src="https://m.media-amazon.com/images/I/71uz3AedwVL._AC_SR920,736__FMwebp_.jpg"/>
+            </div>
+                <p>Lifestyle Sneakers</p>
+            </div>
+            <div>
+                <div>
+                <img src="https://m.media-amazon.com/images/I/61h70xJXNRL._AC_SX255_.jpg"/>
+            </div>
+                <p>Sandals On Sale</p>
+            </div>
+            <div>
+                <div>
+                <img src="https://m.media-amazon.com/images/I/81W8icKY5PL._AC_SX255_.jpg"/>
+            </div>
+                <p>Denim</p>
+            </div>
+            <div>
+                <div>
+                <img src="https://m.media-amazon.com/images/I/716Hx34WZnL._AC_SX255_.jpg"/>
+            </div>
+                <p>Loafers</p>
+            </div>
+        </div>
+    </div>
+    <div id="middle">
+        <div>
+            <img src="https://m.media-amazon.com/images/G/01/2022/womens-shoes/WOMENS-HEELS-PUMPS-AUGUST-PROMO-500X500.jpg" />
+            <h4>Pumps, Stilettos, and Slingbacks, Oh My!</h4>
+            <p>Heels-the perfect excuse to dress up for every occasion!</p>
+            <button>SHOP HEELS YOU'LL LOVE</button>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/G/01/2022/homepage9.19/BAGS-HANDBAGS-DESIGNER-FALL-PROMO-AUGUST-500X500.jpg" />
+            <h4>The Best in Designer Bags for Fall</h4>
+            <p>Invest in standout designs that add a little oomph to your wardrobe!</p>
+            <button>SHOP TOP DESIGNER BAGS</button>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/G/01/2022/homepage9.26/MENS-FALL-BASICS-SEPTEMBER-TRIPTYCH-500x500.jpg" />
+            <h4>Smart Style: Fall Footwear Basics</h4>
+            <p>Featuring chukkas, sneakers, oxfords. and other must-haves!</p>
+            <button>SHOP MEN'S FALL FOOTWEAR</button>
+        </div>
+    </div>
+</body>
+</html>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    let dropdown = document.querySelector(".dropdown");
+    dropdown.onclick = function(){
+dropdown.classList.toggle("active");
+    }
+</script>
