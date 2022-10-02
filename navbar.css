@@ -730,22 +730,25 @@ margin: auto;
 text-align: center;
 
 }
-.carousel{
-    text-align: center;
+#header>div:nth-child(5)>.carousel{
+    display: flex;
     box-sizing: border-box;
     
 }
-   .carousel-cell {
-    display: flex;
+#header>div:nth-child(5)>.carousel-cell {
+   
     width:100%;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
+    padding: 10px 10px;
     margin-top: 5px;
-    gap: 400px;
+   justify-content: space-between;
+    border: 1px solid black;
+    text-align: center;
+   
     
    }
-   .carousel-cell::before{
-    display: block;
+   #header>div:nth-child(5)>.carousel-cell::before{
+    
     content: '';
     
    }
